@@ -4,17 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".StoryActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Story"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-47dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/story1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="노래 부르기를 즐겨하는 당나귀.\n울고 있는 멍멍이.\n발톱을 잃어버린 고양이.\n목소리가 나지 않는 꼬꼬닭.\n\n이들이 함께 브레멘으로 떠나요."
+                android:textColor="@color/darkgray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="과연 우리 친구들에게 어떤 일이 일어날까요?"
+                android:textColor="@color/darkgray"
+                android:textSize="15sp"
+                android:textStyle="bold|normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/story2" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="브레멘으로 가는 길, 근사한 악기 상점을 발견한 네 친구.\n운명처럼 마주친 상점에서\n그들은 자신과 꼭 맞는 악기를 찾았습니다.\n\n서로의 소리를 모아 하나가 되는 브레멘 음악대와 함께,\n한 번 즐거운 연주를 시작해볼까요?"
+                android:textColor="@color/darkgray"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginBottom="45dp"
+                android:src="@drawable/story3" />
+
+            <android.widget.Button
+                android:id="@+id/gotoSelectBtn"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="45dp"
+                android:background="@drawable/gotomainbtn"
+                android:text="연주하러 돌아가기"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

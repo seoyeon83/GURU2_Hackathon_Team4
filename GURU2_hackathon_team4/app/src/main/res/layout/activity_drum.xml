@@ -4,16 +4,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/drumback"
     tools:context=".DrumActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Drum"
-        android:textSize="48sp"
+
+    <!--  드럼 구현 -->
+    <android.widget.Button
+        android:id="@+id/drum1"
+        android:layout_width="202dp"
+        android:layout_height="163dp"
+        android:layout_marginEnd="624dp"
+        android:background="@drawable/drum_left"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintVertical_bias="0.107" />
+
+    <android.widget.Button
+        android:id="@+id/drum2"
+        android:layout_width="224dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="616dp"
+        android:background="@drawable/drum_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+
+    <android.widget.Button
+        android:id="@+id/drum3"
+        android:layout_width="181dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/drumwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/drum4"
+        android:layout_width="181dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/drumwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/drum5"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/drumwhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/handstick"
+        android:layout_width="406dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/stick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

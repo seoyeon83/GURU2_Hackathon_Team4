@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+    <!--  악기를 든 브레멘 음악대 단체 이미지   -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="363dp"
+        android:layout_height="815dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/bremen_select" />
+
+    <!--  통기타 연주하기 버튼   -->
+    <Button
+        android:id="@+id/acousticBtn"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/cloud_btn"
+        android:text="통기타🪕\n연주하러가기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  피아노 연주하기 버튼   -->
+    <Button
+        android:id="@+id/pianoBtn"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/cloud_btn"
+        android:text="피아노🎹\n연주하러가기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  드럼 연주하기 버튼   -->
+    <Button
+        android:id="@+id/drumBtn"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/cloud_btn"
+        android:text="드럼🥁\n연주하러가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--  일렉기타 연주하기 버튼   -->
+    <Button
+        android:id="@+id/elecBtn"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/cloud_btn"
+        android:text="일렉기타🎸\n연주하러가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--  스토리 보러가기 버튼   -->
+    <Button
+        android:id="@+id/storyBtn"
+        android:layout_width="313dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/darkgray"
+        android:text="스토리 보러가기"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--  연주할 때의 안내사항   -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="🎵 원활한 연주를 위해 🎶\n연주할 때는 화면을 가로로 돌려주세요"
+        android:textColor="@color/darkgray"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
