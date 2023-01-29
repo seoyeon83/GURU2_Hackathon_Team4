@@ -1,16 +1,17 @@
-# GURU2_Hackathon_Team4
-* SDK 버전: 33 (가장 최신 것)
-  * SDK Manager > SDK Platform > Show Package Details 체크박스 선택 후, 아래 사진처럼 선택 후(Install)
-  ![SDK 설정](./READMESource/version1.jpg)
+# 2022년 겨울 Programming GURU2 Android - 4팀(All:바른연주)
+## Project: 브레멘 음악대(Bremen Town Musicians) 🐱🐶🐴🐔
+![메인 이미지](GURU2_hackathon_team4/app/src/main/res/drawable/bremen_main.jpg)
+### ✨브레멘 음악대(Bremen Town Musicians) 란?
+어린이를 대상으로 한, 하지만 남녀노소 누구나 충분히 즐길 수 있는 종합 악기 연주 앱입니다.<br>
+밴드로 돌아온 브레멘 음악대! 이들과 함께 즐거운 연주를 시작해볼까요?
 
+### 🚨코드 실행 시 유의사항
+원활한 실행을 위해 아래 버전으로 설정하는 것을 권장드립니다.
+* SDK 버전: 33 (complieSdk: 33, minSdl: 24, targetSdk: 33)
+* 적정 에뮬레이터 버전: Pixel 3a 33
 
-
-* 애뮬레이터 설정
-  ![애뮬레이터 설정(1)](./READMESource/version2.jpg)
-  
-  ![애뮬레이터 설정(2)](./READMESource/version3.jpg)
-  
-  ![애뮬레이터 설정(3)](./READMESource/version4.jpg)
-  그냥 시스템 이미지 설정 같긴 하지만.. 통일하는 게 좋을듯..?
-  ![애뮬레이터 설정(4)](./READMESource/version5.jpg)
-  원래 우리 계획대로면 Startup orientation이 가로여야 맞지만, 초안이기 때문에 세로형. 추후 수정 가능. 각자 작업할 때는 원래 가로라는 것 기억하기
+### 👩‍💻**4팀(All:바른연주) 팀원**
+* 서울여자대학교 데이터사이언스학과 2021111729 오수민
+* 서울여자대학교 데이터사이언스학과 2021111714 김서연
+* 서울여자대학교 데이터사이언스학과 2021111726 양혜성
+* 서울여자대학교 데이터사이언스학과 2021111734 장진영
